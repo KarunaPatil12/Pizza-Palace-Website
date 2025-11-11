@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply 
+   bg-primary-50
+    font-serif;
+    margin: 0;
+}
+#root {
+    @apply 
+    font-serif;
+  }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.title{
+   @apply md:text-5xl text-3xl font-serif text-primary-950 font-semibold
+}
+.Subtitle{
+   @apply md:text-xl font-serif text-lg  text-primary-800 font-semibold
+}
+.btn{
+  @apply px-6 py-3 rounded-lg font-serif font-medium transition-all duration-300 inline-flex items-center gap-2;
+}
+.btn-primary{
+  @apply font-medium md:text-lg font-serif  bg-primary-900 hover:bg-primary-800 hover:border-primary-300 text-primary-100 hover:shadow-lg !important;
+}
+.section{
+  @apply max-w-7xl w-full my-16 font-serif
+}

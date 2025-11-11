@@ -32,7 +32,6 @@ function AdminHome() {
         }, 20);
 
         return () => clearInterval(interval);
-
     }, []);
 
     const data = {
